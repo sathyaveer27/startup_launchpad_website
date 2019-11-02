@@ -1,0 +1,53 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+.search-block{
+}
+.search-form{
+    padding: 15px;
+}
+.project-area{
+    padding: 15px;
+}
+.project-block{
+    width:45%;
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    height: 190px;
+    border:2px solid #4fc2f7;
+    border-radius: 3px;
+    background-color: #fafafa;
+    box-shadow: 5px 5px 5px #e7e7e7;
+}
+#project-title{
+        /* left: 15%; */
+        font-size: 20px;
+        /* font-weight: bold; */
+        color: black; 
+        text-decoration: none;   
+        margin-left: 15px;
+        padding: 2px;
+}
+#project-desc{
+    padding: 5px;
+    background-color: white;
+    height: 120px;
+    border: 2px solid #e7e7e7;
+    margin: 10px 20px 0px 20px;
+    overflow-y: auto;
+}
+input{
+    border: 2px solid #e1e6e7;
+    height:25px;
+	width:350px;
+	box-shadow: 3px 3px 5px #e7e7e7;	
+}
+input[name=submit]{
+	width: 70px;
+	color: white;
+	background-color: #0095ff;
+    font-weight: bold;
+    border: 0px solid;
+}

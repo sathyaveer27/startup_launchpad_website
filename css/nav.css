@@ -1,0 +1,103 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    /* background-color:rgba(36, 34, 34, 0.9); */
+	overflow: hidden;
+    border-bottom: 5px solid #4fc2f7;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 10px 12px #BBB8B8;
+}
+.nav-left {
+    float: left;
+}
+.nav-left a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:Helvetica;
+    height: 50px;
+}
+.nav-left a:hover {
+    background-color:#4fc2f7;
+    color: white;
+    border-bottom: 5px solid black;
+    z-index: 1;
+}
+.nav-left a.active {
+    background-color: #4CAF50;
+    /* color: white;  */
+}
+#nav{
+    width: 25%;
+}
+.nav-center{
+    float: left;
+}
+#logo{
+    font-weight: bold;
+    font-size: 30px;
+    height: 50px;
+    width: 50%;
+    padding: 0;
+    margin-top: 5px;
+    text-align: center;
+    /* color: white; */
+    font-family:Helvetica;
+}
+.nav-right{
+    float: right;
+    text-align: text;
+}
+#login-control{
+    width:15%;
+    height: 50px;
+    /* padding:5px; */
+    /* margin-top: 5px; */
+}
+#login-btn{
+    margin-top: 5px;
+    background-color:white;
+    height: 40px;
+    width:60px;
+    border: 0px solid;    
+}
+#login-btn:hover{
+    background-color: #0095ff;
+    color: white;    
+}
+#signup-btn{
+    background-color:white;
+    /* color:white; */
+    height: 40px;
+    width:60px;
+    border: 0px solid;
+    
+}
+#signup-btn:hover{
+    background-color: #0095ff;    
+    color: white;
+    
+}
+#logout-btn{
+    margin-top: 5px;
+    background-color: white;
+    height: 40px;
+    width:60px;
+    border: 0px solid;
+}
+#logout-btn:hover{
+    background-color: #0095ff;
+    color: white;
+}
+#user-name{
+    /* margin-top: 7px; */
+    /* color: white; */
+}

@@ -1,0 +1,22 @@
+.create-block{
+    width: 100%;
+}
+.create-form{
+    padding: 7px 0px 0px 10px;
+    margin-left: 15px;
+}
+input{
+    border: 2px solid #ecf0f1;
+    height:25px;
+    width:350px;
+}
+input:focus{
+    border: 2px solid #0095ff;
+}
+input[type=submit]{
+    width: 70px;
+	color: white;
+	background-color: #0095ff;
+    font-weight: bold;
+    border: 0px solid;
+}

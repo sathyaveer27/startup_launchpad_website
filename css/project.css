@@ -1,0 +1,99 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.heading{
+    clear: both;
+    margin-top: 10px;
+}
+#project-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+#project-owner{
+    text-align: center;
+    font-size: 15px;
+}
+.general-info{
+    margin-left: 15px; 
+    width:50%;
+    float: left;
+    border: 2px solid #e7e7e7;
+    padding: 5px 0px;
+}
+.general-info p{
+    padding: 5px;
+    margin-left: 15px;
+}
+.general-info table{
+    padding: 5px;
+    margin-left: 15px;
+}
+.promote-area{
+    width: 45%;
+    float: left;
+    /* margin-left: 15px; */
+}
+.promote-block{
+    padding: 20px;
+    margin-left: 30px;
+}
+ #promote-btn{
+    width: 70px;
+    height: 40px;
+	color: white;
+	background-color: #0095ff;
+	font-weight: bold;
+	border:0px solid;
+}
+.comment{
+    clear: both;
+    /* padding: 5px; */
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.comment-form { 
+    padding:5px;
+    margin: 15px;
+}
+input[type=textarea]{
+    border: 3px solid #ecf0f1;
+}
+input[type=textarea]:focus{
+    border: 2px solid #0095ff;
+}
+input[type=submit]{
+    width: 70px;
+    height: 40px;
+	color: white;
+	background-color: #0095ff;
+	font-weight: bold;
+	border:0px solid;
+}
+.comment-area{
+    /* background-color: #e7e7e7; */
+    width: 500px; 
+    margin-left: 15px;
+}
+.comment-block{
+   padding: 5px;
+   margin: 5px;
+   border: 2px solid #E7EAEB;   
+}
+#comment-name{
+    padding: 1px;
+    margin: 0px;
+}
+#user-comment{
+    padding: 5px 0px;
+    background-color: white;
+    min-height: 70px;
+    border: 1px solid #E7EAEB;    
+    margin: 5px 10px;
+}
+#timestamp{
+ 
+}

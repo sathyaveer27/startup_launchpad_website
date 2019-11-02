@@ -1,0 +1,39 @@
+.signup{
+	margin-left:30px;
+	margin-top: 2%; 
+	width: 400px;
+	border: 2px solid #4fc2f7;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px #e7e7e7;	
+}
+.signup-heading{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.signup-body{
+	margin-left: 15px;
+	padding: 7px;
+}
+input{
+    border: 1px solid #E7EAEB;
+    height:25px;
+	width:350px;
+	box-shadow: 2px 2px 5px #e7e7e7;	
+}
+input:focus{
+	border: 1px solid #0095ff;
+}
+input[type=radio]{
+    height:15px;
+    width:15px;
+}
+input[name=submit]{
+	width: 70px;
+	color: white;
+	background-color: #0095ff;
+    font-weight: bold;
+    border: 0px solid;
+}
